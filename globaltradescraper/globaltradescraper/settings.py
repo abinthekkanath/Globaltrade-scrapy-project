@@ -69,6 +69,17 @@ ITEM_PIPELINES = {
 }
 FEED_FORMAT="json"
 FEED_URI="item.json"
+FEED_EXPORT_ENCODING="utf-8"
+FEED_EXPORT_FIELDS = ["title","sub_title","primary_location"]
+FEED_EXPORTERS_BASE={
+    'json': 'scrapy.exporters.JsonItemExporter',
+    'jsonlines': 'scrapy.exporters.JsonLinesItemExporter',
+    'jl': 'scrapy.exporters.JsonLinesItemExporter',
+    'csv': 'scrapy.exporters.CsvItemExporter',
+    'xml': 'scrapy.exporters.XmlItemExporter',
+    'marshal': 'scrapy.exporters.MarshalItemExporter',
+    'pickle': 'scrapy.exporters.PickleItemExporter',
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
