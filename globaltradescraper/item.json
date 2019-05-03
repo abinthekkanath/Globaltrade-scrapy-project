@@ -1,12 +1,111 @@
-[][
-{"primary_location": null, "sub_title": "Quality Control Services, United States", "title": "RH ANDERSEN Consultants"},
-{"primary_location": "\nBoulder, CO,\nUnited States\n", "sub_title": "Localization, Translation, Global Market Solutions, United States", "title": "ENLASO Corporation"},
-{"primary_location": "\nLong Island City,\nUnited States\n", "sub_title": "Internationally design and manufacturing firm, United States", "title": "Dunli Group USA"},
-{"primary_location": "\nEaston,\nUnited States\n", "sub_title": "Global Mercato import export expertise services, United States", "title": "Global Mercato"},
-{"primary_location": "\nMontvale, NJ,\nUnited States\n", "sub_title": "Foreign Exchange Services, United States", "title": "Western Union Business Solutions"},
-{"primary_location": null, "sub_title": "Distributing, United States", "title": "Sales4Sales"},
-{"primary_location": "\nAlbany, NY,\nUnited States\n", "sub_title": "A Hosting, Development, and Security Firm, United States", "title": "American Digital Services"},
-{"primary_location": null, "sub_title": null, "title": "161,209"},
-{"primary_location": "\nParis,\nFrance\n", "sub_title": "Digital B2B Solutions, France", "title": "Export Enterprises"},
-{"primary_location": "\nNew York,\nUnited States\n", "sub_title": "D-I-Y Solution For Drybulk, United States", "title": "Fastfix Inc."}
+[]{
+  "area_of_expertise": "Custom Manufacturing in the United States", 
+  "website": "http://www.dunliusa.com", 
+  "about": "We are ISO9001 Quality System and ISO14001 Environment Management System certified. With over 2,500 employees and a factory floor space of 3 million square feet, Dunli Group manufactures a diverse variety of products: medical beds and related accessories; store fixtures, garment racks and displays; numerous models of industrial fans and blowers, fan motors and fan guards; housewares for the kitchen, bath, garden and more.", 
+  "title": "Dunli Group USA", 
+  "sub_title": "Internationally design and manufacturing firm, United States", 
+  "language_spoken": "  English Chinese", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/9248.do", 
+  "primary_location": "Long Island City,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Dunli-Group-USA.html"
+},
+{
+  "area_of_expertise": "B2B Marketing in the United States", 
+  "website": "http://www.export-entreprises.com", 
+  "about": "Non financial services for banks, NGO and goverment organizations  are in strong expansion and we at Export Enterprises are the backbone of growth in this emerging industry.  More and more banks are developing strategies and creating SME units to cater to clients that fall in the SME category, especially SMEs searching for foreign expansion.Export Enterprises provide banks, NGOs and government organizations with international trade resources, SME portals, online communities and B2B marketplaces to be made available to the international business banking client.  The overall result provides these clients and SMEs with a one stop shop of tools, resources, and content vital to successfully and securely growing an international business. Such tools included; interactive maps of import/export flows, how to articles on business development and international banking, market reports, shipping documents, custom duties; country profiles, tax guides, denied party screening, landed cost calculators and more ", 
+  "title": "Export Enterprises", 
+  "sub_title": "Digital B2B Solutions, France", 
+  "language_spoken": "  English French Spanish", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/14608.do", 
+  "primary_location": "Paris,France", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Export-Enterprises.html"
+},
+{
+  "area_of_expertise": "Media/Graphic Design in the United States", 
+  "website": "http://www.americandigitalservices.com", 
+  "about": "American Digital Services has been providing Web Hosting, Content Management Solutions, Email Security, IT Support, and Security for over 10 years. We give you enterprise level services without the hassle of managing the technology or the enterprise cost.", 
+  "title": "American Digital Services", 
+  "sub_title": "A Hosting, Development, and Security Firm, United States", 
+  "language_spoken": "", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/18936.do", 
+  "primary_location": "Albany, NY,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/planetnoc-dan-horning.html"
+},
+{
+  "area_of_expertise": "Free Trade Zone in the United States", 
+  "website": "", 
+  "about": "My company Global Mercato is a leading import export company dealing exclusively with water. I have major suppliers of water for any buyers that need it URGENTLY. I am an expert in finding buyers and suppliers. I've worked with companies in other countries looking for products made here in the United States. I also specialize in commodities from other countries to import to the United States. I'm looking to build long term relationships with companies worldwide to do business with.", 
+  "title": "Global Mercato", 
+  "sub_title": "Global Mercato import export expertise services, United States", 
+  "language_spoken": "  English", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/9295.do", 
+  "primary_location": "Easton,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Global-Mercato-2.html"
+},
+{
+  "area_of_expertise": null, 
+  "website": "http://www.enlaso.com", 
+  "about": "ENLASO is a full service globalization firm with over 40 years of experience assisting companies with every aspect of their international market needs.  From translation and localization, to market research and market penetration strategies, you can count on our network of experts and thousands of in-country resources to help your business accomplish exactly the success you envision.", 
+  "title": "ENLASO Corporation", 
+  "sub_title": "Localization, Translation, Global Market Solutions, United States", 
+  "language_spoken": "  English French German Italian Japanese Russian Spanish", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/9439.do", 
+  "primary_location": "Boulder, CO,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/ENLASO-Corporation.html"
+},
+{
+  "area_of_expertise": "Foreign Exchange in the United States", 
+  "website": "http://www.business.westernunion.com", 
+  "about": "is a leading supplier of foreign exchange services and a trusted provider of international business-to-business payments.  We enable companies of all sizes to send and receive international payments, manage currency exposures and capitalize on global market opportunities. With a suite of products and services tailored specifically for business needs, a deep expertise in foreign transactions, access to over 140 currencies and a global financial network that spans more than 200 countries and territories, we help companies spend less time managing international payments and more time growing their businesses. ", 
+  "title": "Western Union Business Solutions", 
+  "sub_title": "Foreign Exchange Services, United States", 
+  "language_spoken": "", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/9514.do", 
+  "primary_location": "Montvale, NJ,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Western-Union-Business-Solutions.html"
+},
+{
+  "area_of_expertise": "Translation Services in the United States", 
+  "website": "", 
+  "about": "Overview of Worldwide Hello is a full service translation company that offers a high price-quality ratio along with personalized service. We have extensive experience translating import/export documents, marketing materials, technical/legal manuals, contracts, bidding specifications, and other legal/technical documentation from foreign languages into English as well as most major languages into English.", 
+  "title": "Worldwide Hello", 
+  "sub_title": "Translation Services, United States", 
+  "language_spoken": "", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/15842.do", 
+  "primary_location": "Ormand Beach,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Worldwide-Hello.html"
+},
+{
+  "area_of_expertise": "Ocean Freight in the United States", 
+  "website": "http://www.fastfixinc.com", 
+  "about": "WEB BASED DO-IT-YOURSELF SOLUTION FOR GLOBAL DRY BULK TRADESWe are Fastfix Inc. FastFix™ system facilitates ocean freight for dry bulk shipments. Using our DO-IT-YOURSELF solution online you can post shipments directly on the system and negotiate suitable ship space. System is useful for established Traders that ship dry bulks such as coal, iron ore, minerals, grains, rice, wheat, cement etc to any major functioning port in the world. Our system provides GLOBAL TRADE INFRASTRUCTURE for all major dry bulk commodities that are transported by ship.You may transact:- Full Cargo Orders (above 5,000mt/10,000mt/parcel)- Part Cargo Orders (under 5,000mt)- COAs- TCsCovers 9600 ports worldwide and 100+ commodities. REGISTER for FREE  in suitable category and use PROMO: \"free90\" to get FREE ACCESS test drive for 90 days before we launch our website to rest of the market. Many more upgrades planned for the upcoming launch.", 
+  "title": "Fastfix Inc.", 
+  "sub_title": "D-I-Y Solution For Drybulk, United States", 
+  "language_spoken": "  English", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/2298.do", 
+  "primary_location": "New York,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Fastfix-Inc.html"
+},
+{
+  "area_of_expertise": "Cargo Insurance in the United States", 
+  "website": "", 
+  "about": "Overview of Insurance, surety and risk managment solutions for transportation intermediaries and global supy chains are Roanoke Trade's focus. Specialiy Insurance Offerings Include:Shippers InterestStock Throughput and DistributionWarehouseProject CargoCargo Legal LiabilityErrors & OmissionsBonds offered:ImportForeign Trade Zone OperatorsOTI/NVOCCATA Carnets ", 
+  "title": "Roanoke Trade Services", 
+  "sub_title": "Cargo Insurance -Custom Bonds, United States", 
+  "language_spoken": "", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/12332.do", 
+  "primary_location": "United States,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Roanoke-Trade-Services.html"
+},
+{
+  "area_of_expertise": "Supply Chain Services in the United States", 
+  "website": "", 
+  "about": "Overview of Krypt Inc. is a global business and SAP consulting firm and a strategic partner since 2008. We provide tangible value to our customers by bringing together systems and business experts, pre-delivered content and unique, high-value solutions – out of the box or fully customized to meet your distinct business challenges. Pairing our complementary products with standard SAP offerings, our customers have seen 10% to 40% savings over three years. We provide consulting services in the areas of supply chain, trade, logistics, transportation, warehouse management, finance, HANA, S/4 HANA and much more. Please contact us to see if we can help you solve your business and IT challenges. You can read more about us by visiting http://www.kryptinc.com/", 
+  "title": "Krypt Inc.", 
+  "sub_title": "Global SAP consulting services firm, United States", 
+  "language_spoken": "", 
+  "logo_url": "https://d3gecv9w1cv0iw.cloudfront.net/image/160/138/18477.do", 
+  "primary_location": "Santa Clara,United States", 
+  "page_url": "https://www.globaltrade.net/international-trade-import-exports/expert-service-provider-p/Krypt-Inc.html"
+}
 ]
