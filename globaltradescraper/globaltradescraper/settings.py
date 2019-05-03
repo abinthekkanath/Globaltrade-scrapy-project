@@ -70,7 +70,7 @@ ITEM_PIPELINES = {
 FEED_FORMAT="json"
 FEED_URI="item.json"
 FEED_EXPORT_ENCODING="utf-8"
-FEED_EXPORT_FIELDS = ["title","sub_title","primary_location"]
+FEED_EXPORT_INDENT=2
 FEED_EXPORTERS_BASE={
     'json': 'scrapy.exporters.JsonItemExporter',
     'jsonlines': 'scrapy.exporters.JsonLinesItemExporter',
