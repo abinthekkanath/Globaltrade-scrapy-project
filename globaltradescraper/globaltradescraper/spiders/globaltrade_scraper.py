@@ -52,14 +52,13 @@ class GlobalTradeSpider(scrapy.Spider):
 
 		items['website']="".join(response.css('.details a:nth-child(1)::text').getall()[:1]).replace("\n","")
 
-		language_spoken=response.css('.block-content li::text').getall()[1:]
-		if len(language_spoken)==0:
-			language_spoken=response.css('tr:nth-child(4) td+ td::text').getall()
-			if 'English' not in language_spoken and len(language_spoken)>=1:
-				language_spoken=response.css('tr:nth-child(5) td+ td::text').getall()
-				if 'English' not in language_spoken:
-					language_spoken=[]
-		items['language_spoken']="".join(language_spoken).replace("\n","")
+		language_spoken="".join(response.css('tr:nth-child(4) td+ td::text').getall()).replace("\n","")
+		if 'English' not in language_spoken:
+			language_spoken="".join(response.css('tr:nth-child(5) td+ td::text').getall()).replace("\n","")
+			if 'English' not in language_spoken:
+				language_spoken=""
+		items['language_spoken']=language_spoken
+		
                 items['page_url']=response.url
 		
 		yield items
