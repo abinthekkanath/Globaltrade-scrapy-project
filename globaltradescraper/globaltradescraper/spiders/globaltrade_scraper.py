@@ -45,21 +45,29 @@ class GlobalTradeSpider(scrapy.Spider):
 
 		items['area_of_expertise']=response.css('.mainExp::text').get()
 
-		about=response.css('.details p::text').getall()
-		if len(about)<=1 and about[0]=='\n':
-			about=response.css('.details p strong::text').getall()
-		items['about']=remove_tags("".join(about).replace("\n",""))
+		about=remove_tags("".join(response.css('.details tr:nth-child(1) td+ td::text').getall()).replace("\n",""))
+		if len(about)<=1:
+			about=remove_tags("".join(response.css('.details p::text').getall()).replace("\n",""))
+			if len(about)<=1:
+				about=remove_tags("".join(response.css('.details p strong::text').getall()).replace("\n",""))
+		items['about']=about
 
-		items['website']="".join(response.css('.details a:nth-child(1)::text').getall()[:1]).replace("\n","")
+		website="".join(response.css('.details a:nth-child(1)::text').getall()[:1]).replace("\n","")
+		if 'www.' not in website:
+			website=""
+		items['website']=website
 
 		language_spoken="".join(response.css('tr:nth-child(4) td+ td::text').getall()).replace("\n","")
 		if 'English' not in language_spoken:
 			language_spoken="".join(response.css('tr:nth-child(5) td+ td::text').getall()).replace("\n","")
 			if 'English' not in language_spoken:
-				language_spoken=""
+				language_spoken="".join(response.css('tr:nth-child(6) td+ td::text').getall()).replace("\n","")
+				if 'English' not in language_spoken:
+					language_spoken=""
 		items['language_spoken']=language_spoken
-		
+
                 items['page_url']=response.url
 		
 		yield items
+		
 		
